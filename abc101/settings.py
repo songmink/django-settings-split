@@ -75,7 +75,7 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.security.SecurityMiddleware',
 )
 
-ROOT_URLCONF = 'clt_keepass.urls'
+ROOT_URLCONF = 'abc101.urls'
 
 TEMPLATES = [
     {
