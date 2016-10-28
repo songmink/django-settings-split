@@ -24,7 +24,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SYS_ENV = os.environ.get('DJANGO_ENV')
 
 # read configuration from settings.ini
-# from ConfigParser import RawConfigParser
+# Python 2.x
+#from ConfigParser import RawConfigParser
+# Python 3.x
 from configparser import RawConfigParser
 
 config = RawConfigParser()
